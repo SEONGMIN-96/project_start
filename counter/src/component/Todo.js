@@ -2,12 +2,15 @@ import React, { useState } from 'react'
 
 const Todo = () => {
 
-    const [count, setCount ] = useState(0)
+    const [item, setItem ] = useState('')
+
 
     return (<>
-    <h1>Todo({count})</h1>
-    <button onClick={ () => setCount( count + 1)}>일+</button>
-    <button onClick={ () => setCount( count - 1)}>일-</button>
+    <h1>Todolist</h1>
+    <h4>{item}</h4>
+
+    <input onChange = { e => setItem(e.target.value)}/> <br/>
+    <button onClick = { () => setItem('')}>초기화</button>
     </>)
 }
 
