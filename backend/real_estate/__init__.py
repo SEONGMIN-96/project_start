@@ -1,20 +1,21 @@
-from real_estate.dataset import Dataset
-from real_estate.service import Service
+from real_estate.housingdto import Dto
+from real_estate.service import HounsingService
+# import xwings as xw
 
 
 class Controller(object):
 
-    dataset = Dataset()
-    service = Service()
+    dataset = Dto()
+    util = HounsingService()
 
     def modeling(self, housing):
         this = self.preprocess(housing)
         return this
 
     def preprocess(self, housing) -> object:
-        service = self.service
+        util = self.util
         this = self.dataset
-        this.housing = service.new_model(housing)
+        this.housing = util.new_model(housing)
         self.print_this(this)
         return this
 

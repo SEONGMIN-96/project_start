@@ -1,10 +1,10 @@
-from real_estate.dataset import Dataset
+from real_estate.housingdto import Dto
 import pandas as pd
 
 
-class Service (object):
+class HounsingService (object):
 
-    dataset = Dataset()
+    dataset = Dto()
 
     def new_model(self, payload) -> object:
         this = self.dataset
