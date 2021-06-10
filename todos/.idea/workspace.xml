@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17667e7a-52ba-4d50-be0a-a3fbe1358cc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../backend/cctv_crime/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/cctv_crime/cctv_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/cctv_crime/cctv_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/cctv_crime/cctv_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/common/country.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/common/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/common/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/real_estate/data/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/real_estate/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/stock_market/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/real_estate/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/real_estate/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/real_estate/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/real_estate/housingdto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/real_estate/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/real_estate/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backend" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

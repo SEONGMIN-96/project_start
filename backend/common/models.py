@@ -2,10 +2,11 @@ from dataclasses import dataclass
 
 
 @dataclass
-class DataTransferObject(object):
+class FileDTO(object):
 
     context: str
     fname: str
+    dframe: object
 
     @property
     def context(self) -> str: return self._context
@@ -18,3 +19,9 @@ class DataTransferObject(object):
 
     @fname.setter
     def fname(self, fname): self._fname = fname
+
+    @property
+    def dframe(self) -> object: return self._dframe
+
+    @dframe.setter
+    def dframe(self, dframe): self._dframe = dframe
